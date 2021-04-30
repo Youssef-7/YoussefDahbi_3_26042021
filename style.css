@@ -1,0 +1,26 @@
+#bloc_page
+{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.navigation{display: flex; background-color: yellow;}
+
+.recherche{ background-color: grey }
+
+/*foonctionnement*/
+
+.fonc{background-color: grey;}
+
+.liste{background-color: red; display: flex; flex-direction: column; justify-content: space-between; height: 150px}
+
+.choix{background-color: green;}
+.composition{background-color: green;}
+.restaurant{background-color: green;}
+
+/*restaurant*/
+
+.resto_choix{background-color: green;}
+.resto_images{width: 100%;}
+
+/*pied de page*/
+.footer{background-color: yellow;}
