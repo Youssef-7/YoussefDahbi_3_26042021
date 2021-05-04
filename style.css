@@ -1,26 +1,31 @@
 #bloc_page
 {
   max-width: 1080px;
-  margin: 0 auto;
+  margin: auto;
 }
-.navigation{display: flex; background-color: yellow;}
 
-.recherche{ background-color: grey }
+p{font-size: 22px;}
+h1{font-size: 40px;}
+#titre_page{width: 900px; margin:auto;}
+.logo {margin-left: 30%;}
 
+.navigation{width: 900px; display: flex; justify-content: center; background-color:#EAEAEA; margin: auto;}
+
+.recherche{ background-color: #F6F6F6; margin: auto; width: 900px; height: 350px; display: flex; flex-direction: column; text-align: center;}
+.recherche h1,.recherche p,.recherche div{ width: 50%; align-self: center;}
 /*foonctionnement*/
-
-.fonc{background-color: grey;}
-
-.liste{background-color: red; display: flex; flex-direction: column; justify-content: space-between; height: 150px}
-
-.choix{background-color: green;}
-.composition{background-color: green;}
-.restaurant{background-color: green;}
+/*conteneur*/
+.liste{ display: flex; flex-direction: column; justify-content: space-between; width: 900px; height: 350px; margin: 50px auto;}
+/*element*/
+.choix,.restaurant,.composition{background-color: green; height: 100px; border-radius: 20px; background-color: #F6F6F6;}
 
 /*restaurant*/
-
-.resto_choix{background-color: green;}
-.resto_images{width: 100%;}
+#restaurant{display: flex; flex-direction: column; justify-content: space-between; height: 1900px; background-color: #F6F6F6; width: 900px; margin: auto; }
+/*item restaurant*/
+.resto_choix{background-color: white; width: 700px; margin: auto; height: 400px; border-radius: 30px;}
+.resto_images{width: 700px; height: 300px;}
+.resto_images img{width: 100%; height: 100%; object-fit: cover; border-radius: 30px 30px 0px 0px;}
 
 /*pied de page*/
-.footer{background-color: yellow;}
+.footer{background-color: #353535; width: 900px; height: 200px; margin:auto; padding-top: 5px; color: white;}
+.footer h3,.footer div{margin-left: 30px;}
