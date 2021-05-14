@@ -13,8 +13,9 @@ a
   text-decoration: none;
   color: inherit;
 }
-
+div i{ margin-right: 100px; font-size: 40px; margin-top: 10px; margin-bottom: 50px;}
 #titre_page{width: 700px;
+display: flex;
  margin:auto; 
  text-align: center; 
  height: 70px;}
@@ -33,6 +34,22 @@ a
  background-color: #F6F6F6;}
 .bloc_nav h1{font-size: 40px; margin-left: 20px; font-family: "Shrikhand"; font-weight: normal;}
 .bloc_nav i {font-size: 35px; width: 10px; padding: 29px; margin-right: 50px;}
+.bloc_nav i:hover {background: -webkit-linear-gradient(0deg,#9356dc,#ff79da);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: load 2.5s linear;
+animation-name: y}
+@keyframes y
+{
+0%
+{
+  opacity: 0;
+}
+100%
+{
+  opacity: 1;
+}
+}
 /*section h2*/
 h2 {width: 700px; margin: auto; background-color: #F6F6F6; padding-top: 20px;}
 /*section entrees*/
@@ -50,9 +67,11 @@ height: 100px;
 width: 680px; 
 margin: auto; 
 background-color: white;  
-border-radius: 16px;}
+border-radius: 16px;
+box-shadow: 2px 8px 10px #EAEAEA;}
 .entrees_p1{height: 50px; 
-width: 300px;  
+width: 300px;
+font-weight: bold;  
 padding-left: 15px;}
 .entrees_p2{height: 40px; 
 width: 300px;  
@@ -78,9 +97,11 @@ height: 100px;
 width: 680px; 
 margin: auto; 
 background-color: white;  
-border-radius: 16px;}
+border-radius: 16px;
+box-shadow: 2px 8px 10px #EAEAEA;}
 .plats_p1{height: 50px; 
-width: 300px;  
+width: 300px;
+font-weight: bold; 
 padding-left: 15px;}
 .plats_p2{height: 40px; 
 width: 300px;  
@@ -106,8 +127,10 @@ height: 100px;
 width: 680px; 
 margin: auto; 
 background-color: white;  
-border-radius: 16px;}
-.desserts_p1{height: 50px; 
+border-radius: 16px;
+box-shadow: 2px 8px 10px #EAEAEA;}
+.desserts_p1{height: 50px;
+font-weight: bold; 
 width: 300px;  
 padding-left: 15px;}
 .desserts_p2{height: 40px; 
@@ -133,7 +156,8 @@ border-radius: 50px;
 background-color: #9356DC; 
 border: #9356DC;
 font-size: 18px;
-color:white;}
+color:white;
+background-image: radial-gradient( farthest-corner at 40px 0, #FF79DA 0%, #9356DC 100%);}
 
 /*pied de page*/
 .footer{background-color: #353535; 
