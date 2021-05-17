@@ -165,6 +165,7 @@ a {
   background-image: radial-gradient(farthest-corner at 40px 0, #FF79DA 0%, #9356DC 100%);
   box-shadow: 2px 8px 10px #EAEAEA;
 }
+.btn:hover{opacity: 0.8;}
 
 /*foonctionnement*/
 /*titre fonctionnement*/
@@ -287,11 +288,11 @@ a {
   color: grey;
 }
 
-.like:hover {
+.like:active{
   background: -webkit-linear-gradient(0deg, #9356dc, #ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: y 2.5s linear;
+  animation: y 0.1s linear;
 }
 
 @keyframes y {

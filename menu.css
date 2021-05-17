@@ -35,10 +35,10 @@ display: flex;
 .bloc_nav h1{font-size: 58px; margin-left: 20px; font-family: "Shrikhand"; font-weight: normal;}
 .bloc_nav i {font-size: 40px; width: 10px; padding: 63px; margin-right: 50px; -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; background-color: grey;}
-.bloc_nav i:hover {background:linear-gradient(0deg,#9356dc,#ff79da);
+.bloc_nav i:active {background:linear-gradient(0deg,#9356dc,#ff79da);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-animation: y 2.5s linear;}
+animation: y 0.1s linear;}
 @keyframes y
 {
 0%
@@ -178,6 +178,7 @@ font-size: 30px;
 color:white;
 box-shadow: 2px 8px 10px #EAEAEA;
 background-image: radial-gradient( farthest-corner at 40px 0, #FF79DA 0%, #9356DC 100%);}
+.btn:hover{opacity: 0.8;}
 
 /*pied de page*/
 .footer{background-color: #353535; 
@@ -195,8 +196,6 @@ animation: flash 0.3s ease-out ;
 animation-fill-mode: both;
 transform: scale(0);
 overflow: hidden;
-
-
 }
 
 .entrees:nth-child(1) {animation-delay: 0.1s}
