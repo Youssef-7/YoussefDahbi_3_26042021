@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@media all and (max-width: 1080px){
 #bloc_page
 {
   max-width: 1080px;
@@ -186,10 +187,12 @@ width: 95%;
 height: 200px; 
 margin:auto; 
 padding-top: 5px; 
+font-family: "Shrikhand";
 color: white;}
 .footer h3,.footer div{margin-left: 30px; }
 .footer div {margin-bottom: 5px}
 .footer i{ margin-right: 10px; }
+
 /***********Animation section entrees plats desserts************/
 .entrees{
 animation: flash 0.3s ease-out ;
@@ -361,4 +364,5 @@ overflow: hidden;}
 
 .icon_confirmation {
   color: #99E2D0;
+}
 }
