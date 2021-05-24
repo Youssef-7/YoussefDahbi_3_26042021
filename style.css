@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 .loader{
   position: fixed;
@@ -71,16 +71,16 @@ opacity: 0; }
 .lettre:nth-child(6) {animation-delay: 0.6s}
 .lettre:nth-child(7) {animation-delay: 0.7s}
 .lettre:nth-child(8) {animation-delay: 0.8s}
-@media all and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
 #bloc_page
 {
   max-width: 1080px;
   margin: auto;
+  font-family: "Roboto";
 }
 
 
 p {
-  font-family: "Roboto";
   font-size: 22px;
 }
 
@@ -89,10 +89,6 @@ a {
   font-weight: bold;
   text-decoration: none;
   color: inherit;
-}
-
-.menu {
-  display: none;
 }
 
 #titre_page {
@@ -205,7 +201,7 @@ a {
   border: solid 2px #9356DC;
   border-radius: 50%;
   padding: 8px 15px 8px 15px;
-  margin: 0 50px 0 -13px;
+  margin: 0 50px 0 -20px;
   color: white;
 }
 
@@ -220,17 +216,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 2500px;
+  height: 100%;
   background-color: #F6F6F6;
   width: 100%;
   margin: auto;
+  padding-bottom: 80px;
 }
 
 /*item restaurant*/
 .resto_choix {
   background-color: white;
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
   height: 550px;
   border-radius: 30px;
   box-shadow: 2px 8px 10px #EAEAEA;
@@ -242,9 +239,9 @@ a {
   color: #217460;
   padding: 5px;
   position: absolute;
-  top: 2220px;
-  right: 100px;
   font-size: 30px;
+  margin-left: 720px;
+  margin-top: 15px;
 }
 
 .nouv_2 {
@@ -253,9 +250,9 @@ a {
   color: #217460;
   padding: 5px;
   position: absolute;
-  top: 2805px;
-  right: 100px;
   font-size: 30px;
+  margin-left: 720px;
+  margin-top: 15px;
 }
 
 .resto_images {
@@ -274,64 +271,52 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 90px;
   font-size: 30px;
+  height: 85px;
+  margin-left: 10px;
 }
 
 .ville {
   font-size: 25px;
+  margin-left: 10px;
 }
+.like{
+cursor:pointer;
+color:#fff;
+margin: 40px 40px;
+height: 45px;
+font-size: 45px;
+-webkit-text-stroke:2px #000;
+-o-transition:all 5s;
+transition:all 5s;
+-webkit-transition:all 5s}
 
-.like {
-  width: 10px;
-  padding: 25px;
-  color: grey;
-}
-
-.like:active{
-  background: linear-gradient(0deg, #9356dc, #ff79da);
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: y 0.1s linear;
-}
-
-@keyframes y {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+.like:hover{
+-webkit-text-stroke:1px transparent;
+background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+background:-o-linear-gradient(top left, #FF79DA, #9356DC);
+background:linear-gradient(to bottom right, #FF79DA, #9356DC);
+background-clip:text;
+-webkit-background-clip:text;
+color:transparent;}
 /*pied de page*/
-.footer {
-  background-color: #353535;
-  width: 100%;
-  height: 200px;
-  margin: auto;
-  padding-top: 5px;
-  color: white;
+.footer{background-color: #353535; 
+width: 100%;   
+padding-top: 5px; 
+color: white;
+font-size: 28px;
+padding-bottom:30px;
+font-weight: normal;}
+.footer h3{margin-left: 30px; font-family: "Shrikhand";font-weight: normal; font-size: 30px; }
+.footer div {margin-bottom: 5px;margin-left: 30px;}
+.footer i{ margin-right: 10px;}
 }
 
-.footer h3, .footer div {
-  margin-left: 30px;
-  font-family: "Shrikhand";
-  font-weight: normal;
-}
-
-.footer div {
-  margin-bottom: 5px;
-}
-
-.footer i {
-  margin-right: 10px;
-}
-}
-
-@media all and (min-width: 1200px) {
+@media screen and (min-width: 1081px) {
   #bloc_page {
     max-width: 1440px;
     margin: auto;
+    font-family: "Roboto";
   }
 
   #titre_page {
@@ -387,7 +372,7 @@ a {
   .fonc {
     width: 1200px;
     margin: 45px auto;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   /*conteneur*/
@@ -421,6 +406,7 @@ a {
     border-radius: 50%;
     padding: 2px 8px 2px 8px;
     margin: 0 5px 0 -10px;
+    color: white;
   }
 
   /*restaurant*/
@@ -429,15 +415,17 @@ a {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 1000px;
     background-color: #F6F6F6;
-    width: 1300px;
+    width: 100%;
     margin: auto;
+    border-radius: 20px;
   }
 
   /*titre restaurant*/
   .resto {
     height: 20px;
+    margin-left: 10px;
+    margin-bottom: 60px;
     width: 1200px;
     font-size: 30px;
   }
@@ -448,6 +436,7 @@ a {
     width: 540px;
     margin: auto;
     height: 390px;
+    margin-bottom: 30px;
     border-radius: 30px;
   }
 
@@ -457,9 +446,9 @@ a {
     color: #217460;
     padding: 5px;
     position: absolute;
-    top: 860px;
-    right: 1135px;
     font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
   }
 
   .nouv_2 {
@@ -468,27 +457,16 @@ a {
     color: #217460;
     padding: 5px;
     position: absolute;
-    top: 860px;
-    right: 485px;
     font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
   }
 
   .resto_images {
-    width: 150px;
+    width: 100%;
     height: 300px;
-    float: left;
     margin-right: 5px;
   }
-
-  .menu {
-    font-size: 12px;
-    display: block;
-  }
-
-  .menu p {
-    font-weight: bold;
-  }
-
   .resto_images img {
     width: 100%;
     height: 100%;
@@ -503,12 +481,12 @@ a {
     height: 45px;
     margin-left: 40px;
     font-size: 20px;
-    clear: both;
   }
 
   .ville {
     margin-left: 40px;
     font-size: 15px;
+    font-weight: normal;
   }
 
   .like {
@@ -523,15 +501,17 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #353535;
-    width: 1300px;
+    width: 100%;
     height: 200px;
-    margin: auto;
+    margin:70px 0 0 0;
     padding-top: 5px;
     color: white;
   }
 
   .footer h3 {
     width: 1200px;
+    font-family: "Shrikhand";
+    font-weight: normal;
   }
 
   .footer h3, .footer div {
@@ -550,28 +530,27 @@ a {
   .like {
   width: 10px;
   padding: 25px;
-  color: grey;
 }
 
-.like:active{
-  background: linear-gradient(0deg, #9356dc, #ff79da);
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: y 0.1s linear;
-}
+.like{
+cursor:pointer;
+color:#fff;
+-webkit-text-stroke:2px #000;
+-o-transition:all 5s;
+transition:all 5s;
+-webkit-transition:all 5s}
 
-@keyframes y {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+.like:hover{
+-webkit-text-stroke:1px transparent;
+background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+background:-o-linear-gradient(top left, #FF79DA, #9356DC);
+background:linear-gradient(to bottom right, #FF79DA, #9356DC);
+background-clip:text;
+-webkit-background-clip:text;
+color:transparent;}
 
 a {
   font-family: "Roboto";
-  font-weight: bold;
   text-decoration: none;
   color: inherit;
 }
