@@ -27,8 +27,8 @@ div .return{ margin-right: 235px; margin-left: 40px; font-size: 40px; margin-top
 
 #bloc1{width: 100%; margin:auto; background-color: #F6F6F6; border-radius: 20px; overflow: hidden;}
 /*image restaurant*/
-.resto_image{overflow: hidden; height: 500px;}
-.resto_image img{ width: 100%; object-fit: cover; }
+.resto_image{ height: 500px;}
+.resto_image img{height: 500px; width: 100%; object-fit: cover; }
 /*navigation*/
 .bloc_nav{ 
   display: flex;
@@ -82,10 +82,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: entrees_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -154,12 +150,6 @@ h2 {
 .resto_entrees:hover .resto_entrees__check-icone {transform: rotate(0); }
 
 .resto_entrees__icone {color: #99E2D0; }
-
-@keyframes entrees_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /*section plats*/
 .resto_plats {
   background-color: #fff;
@@ -169,10 +159,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: plats_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -240,12 +226,6 @@ h2 {
 .resto_plats:hover .resto_plats__check-icone {transform: rotate(0); }
 
 .resto_plats__icone {color: #99E2D0; }
-
-@keyframes plats_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /* section desserts */
 .resto_desserts {
   background-color: #fff;
@@ -255,10 +235,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: desserts_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -326,12 +302,6 @@ h2 {
 .resto_desserts:hover .resto_desserts__check-icone {transform: rotate(0); }
 
 .resto_desserts__icone {color: #99E2D0; }
-
-@keyframes desserts_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /*bouton*/
 .button {
   width: 700px; 
@@ -491,10 +461,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: entrees_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -559,12 +525,6 @@ h2 {
 .resto_entrees:hover .resto_entrees__check-icone {transform: rotate(0); }
 
 .resto_entrees__icone {color: #99E2D0; }
-
-@keyframes entrees_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /*section plats*/
  .resto_plats {
   background-color: #fff;
@@ -574,10 +534,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: plats_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -642,12 +598,6 @@ h2 {
 .resto_plats:hover .resto_plats__check-icone {transform: rotate(0); }
 
 .resto_plats__icone {color: #99E2D0; }
-
-@keyframes plats_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /* section desserts */
 .resto_desserts {
   background-color: #fff;
@@ -657,10 +607,6 @@ h2 {
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
-  animation: desserts_confirme .5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  transform: scale(0);
   max-width: 95%;
   margin: 20px auto 20px auto;
 }
@@ -725,12 +671,6 @@ h2 {
 .resto_desserts:hover .resto_desserts__check-icone {transform: rotate(0); }
 
 .resto_desserts__icone {color: #99E2D0; }
-
-@keyframes desserts_confirme {
-  0% {transform: scale(0); opacity: 0%; }
-  50% {opacity: 0%; }
-  100% {transform: scale(1); opacity: 100%; }
-}
 /*bouton*/
 .button {
   width: 700px; 

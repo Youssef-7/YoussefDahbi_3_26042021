@@ -280,6 +280,7 @@ a {
 .ville {
   font-size: 25px;
   margin-left: 10px;
+  font-weight: normal;
 }
 .like{
   cursor:pointer;
