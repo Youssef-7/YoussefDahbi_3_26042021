@@ -38,13 +38,14 @@
 { opacity: 0;z-index: -10;} 
 }
 
-.lettre{ color: #484848;
-font-size: 80px;
-letter-spacing: 15px;
-margin-bottom: 180px;
-animation-iteration-count: 1;
-animation: flash 5s ease infinite ;
-animation-duration: 0.9s;
+.lettre{
+  color: #484848;
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin-bottom: 180px;
+  animation-iteration-count: 1;
+  animation: flash 5s ease infinite ;
+  animation-duration: 0.9s;
 }
 
 @keyframes flash 
@@ -281,273 +282,274 @@ a {
   margin-left: 10px;
 }
 .like{
-cursor:pointer;
-color:#fff;
-margin: 40px 40px;
-height: 45px;
-font-size: 45px;
--webkit-text-stroke:2px #000;
--o-transition:all 5s;
-transition:all 5s;
--webkit-transition:all 5s}
+  cursor:pointer;
+  color:#fff;
+  margin: 40px 40px;
+  height: 45px;
+  font-size: 45px;
+  -webkit-text-stroke:2px #000;
+  -o-transition:all 5s;
+  transition:all 5s;
+  -webkit-transition:all 5s}
 
 .like:hover{
--webkit-text-stroke:1px transparent;
-background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
-background:-o-linear-gradient(top left, #FF79DA, #9356DC);
-background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-background-clip:text;
--webkit-background-clip:text;
-color:transparent;}
+  -webkit-text-stroke:1px transparent;
+  background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+  background:-o-linear-gradient(top left, #FF79DA, #9356DC);
+  background:linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;}
 /*pied de page*/
-.footer{background-color: #353535; 
-width: 100%;   
-padding-top: 5px; 
-color: white;
-font-size: 28px;
-padding-bottom:30px;
-font-weight: normal;}
+.footer{
+  background-color: #353535; 
+  width: 100%;   
+  padding-top: 5px; 
+  color: white;
+  font-size: 28px;
+  padding-bottom:30px;
+  font-weight: normal;}
 .footer h3{margin-left: 30px; font-family: "Shrikhand";font-weight: normal; font-size: 30px; }
 .footer div {margin-bottom: 5px;margin-left: 30px;}
 .footer i{ margin-right: 10px;}
 }
 
 @media screen and (min-width: 1081px) {
-  #bloc_page {
-    max-width: 1440px;
-    margin: auto;
-    font-family: "Roboto";
+#bloc_page {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Roboto";
   }
 
-  #titre_page {
-    width: 1200px;
-    margin: auto;
-    text-align: center;
-    height: 70px;
+#titre_page {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  height: 70px;
   }
 
-  .logo {
-    width: 300px;
+.logo {
+  width: 300px;
   }
 
-  .navigation {
-    display: none;
+.navigation {
+  display: none;
   }
 
-  .recherche {
-    background-color: #F6F6F6;
-    width: 1200px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.recherche {
+  background-color: #F6F6F6;
+  width: 1200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   }
 
-  .recherche h1, .recherche p, .recherche div {
-    width: 600px;
-    align-self: center;
+.recherche h1, .recherche p, .recherche div {
+  width: 600px;
+  align-self: center;
   }
 
-  .recherche h1 {
-    font-size: 40px;
+.recherche h1 {
+  font-size: 40px;
   }
 
-  .recherche p {
-    font-size: 28px;
-    margin-top: 0px;
+.recherche p {
+  font-size: 28px;
+  margin-top: 0px;
   }
 
-  .btn {
-    width: 350px;
-    height: 50px;
-    border-radius: 50px;
-    background-color: #9356DC;
-    border: #9356DC;
-    font-size: 18px;
-    color: white;
+.btn {
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #9356DC;
+  border: #9356DC;
+  font-size: 18px;
+  color: white;
   }
 
   /*foonctionnement*/
   /*titre fonctionnement*/
-  .fonc {
-    width: 1200px;
-    margin: 45px auto;
-    font-size: 30px;
+.fonc {
+  width: 1200px;
+  margin: 45px auto;
+  font-size: 30px;
   }
 
   /*conteneur*/
-  .liste {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1200px;
-    height: 100px;
-    margin: 0px auto;
+.liste {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  height: 100px;
+  margin: 0px auto;
   }
 
   /*element*/
-  .choix, .restaurant, .composition {
-    height: 50px;
-    width: 300px;
-    border-radius: 30px;
-    background-color: #F6F6F6;
-    padding: 25px 0px 0px 0px;
-    font-size: 18px;
+.choix, .restaurant, .composition {
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: #F6F6F6;
+  padding: 25px 0px 0px 0px;
+  font-size: 18px;
   }
 
-  .liste a {
-    margin-left: 20px;
+.liste a {
+  margin-left: 20px;
   }
 
-  .liste span {
-    margin-right: 20px;
-    background-color: #9356DC;
-    border: solid 2px #9356DC;
-    border-radius: 50%;
-    padding: 2px 8px 2px 8px;
-    margin: 0 5px 0 -10px;
-    color: white;
+.liste span {
+  margin-right: 20px;
+  background-color: #9356DC;
+  border: solid 2px #9356DC;
+  border-radius: 50%;
+  padding: 2px 8px 2px 8px;
+  margin: 0 5px 0 -10px;
+  color: white;
   }
 
   /*restaurant*/
-  #restaurant {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #F6F6F6;
-    width: 100%;
-    margin: auto;
-    border-radius: 20px;
+#restaurant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  border-radius: 20px;
   }
 
   /*titre restaurant*/
-  .resto {
-    height: 20px;
-    margin-left: 10px;
-    margin-bottom: 60px;
-    width: 1200px;
-    font-size: 30px;
+.resto {
+  height: 20px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  width: 1200px;
+  font-size: 30px;
   }
 
   /*item restaurant*/
-  .resto_choix {
-    background-color: white;
-    width: 540px;
-    margin: auto;
-    height: 390px;
-    margin-bottom: 30px;
-    border-radius: 30px;
+.resto_choix {
+  background-color: white;
+  width: 540px;
+  margin: auto;
+  height: 390px;
+  margin-bottom: 30px;
+  border-radius: 30px;
   }
 
-  .nouv {
-    border-radius: 3px;
-    background-color: #99e2d0;
-    color: #217460;
-    padding: 5px;
-    position: absolute;
-    font-size: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+.nouv {
+  border-radius: 3px;
+  background-color: #99e2d0;
+  color: #217460;
+  padding: 5px;
+  position: absolute;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
   }
 
-  .nouv_2 {
-    border-radius: 3px;
-    background-color: #99e2d0;
-    color: #217460;
-    padding: 5px;
-    position: absolute;
-    font-size: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+.nouv_2 {
+  border-radius: 3px;
+  background-color: #99e2d0;
+  color: #217460;
+  padding: 5px;
+  position: absolute;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
   }
 
-  .resto_images {
-    width: 100%;
-    height: 300px;
-    margin-right: 5px;
+.resto_images {
+  width: 100%;
+  height: 300px;
+  margin-right: 5px;
   }
-  .resto_images img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px 30px 0px 0px;
-  }
-
-  .resto_flex_description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 45px;
-    margin-left: 40px;
-    font-size: 20px;
+.resto_images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px 30px 0px 0px;
   }
 
-  .ville {
-    margin-left: 40px;
-    font-size: 15px;
-    font-weight: normal;
+.resto_flex_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 45px;
+  margin-left: 40px;
+  font-size: 20px;
   }
 
-  .like {
-    width: 10px;
-    padding: 25px;
+.ville {
+  margin-left: 40px;
+  font-size: 15px;
+  font-weight: normal;
+  }
+
+.like {
+  width: 10px;
+  padding: 25px;
   }
 
   /*pied de page*/
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #353535;
-    width: 100%;
-    height: 200px;
-    margin:70px 0 0 0;
-    padding-top: 5px;
-    color: white;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #353535;
+  width: 100%;
+  height: 200px;
+  margin:70px 0 0 0;
+  padding-top: 5px;
+  color: white;
   }
 
-  .footer h3 {
-    width: 1200px;
-    font-family: "Shrikhand";
-    font-weight: normal;
+.footer h3 {
+  width: 1200px;
+  font-family: "Shrikhand";
+  font-weight: normal;
   }
 
-  .footer h3, .footer div {
-    margin-left: 30px;
+.footer h3, .footer div {
+  margin-left: 30px;
   }
 
-  .footer div {
-    margin-bottom: 60px;
-    margin-right: 120px;
+.footer div {
+  margin-bottom: 60px;
+  margin-right: 120px;
   }
 
-  .footer i {
-    margin-right: 10px;
+.footer i {
+  margin-right: 10px;
   }
 
-  .like {
+.like {
   width: 10px;
   padding: 25px;
 }
 
 .like{
-cursor:pointer;
-color:#fff;
--webkit-text-stroke:2px #000;
--o-transition:all 5s;
-transition:all 5s;
--webkit-transition:all 5s}
+  cursor:pointer;
+  color:#fff;
+  -webkit-text-stroke:2px #000;
+  -o-transition:all 5s;
+  transition:all 5s;
+  -webkit-transition:all 5s}
 
 .like:hover{
--webkit-text-stroke:1px transparent;
-background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
-background:-o-linear-gradient(top left, #FF79DA, #9356DC);
-background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-background-clip:text;
--webkit-background-clip:text;
-color:transparent;}
+  -webkit-text-stroke:1px transparent;
+  background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
+  background:-o-linear-gradient(top left, #FF79DA, #9356DC);
+  background:linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;}
 
 a {
   font-family: "Roboto";
