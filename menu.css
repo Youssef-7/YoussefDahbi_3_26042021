@@ -60,7 +60,6 @@ div .return{ margin-right: 235px; margin-left: 40px; font-size: 40px; margin-top
   background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
   background:-o-linear-gradient(top left, #FF79DA, #9356DC);
   background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;}
 /*section h2*/
@@ -437,7 +436,6 @@ div .return{
   background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
   background:-o-linear-gradient(top left, #FF79DA, #9356DC);
   background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;
 }

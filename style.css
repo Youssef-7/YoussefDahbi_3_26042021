@@ -298,7 +298,6 @@ a {
   background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
   background:-o-linear-gradient(top left, #FF79DA, #9356DC);
   background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;}
 /*pied de page*/
@@ -548,7 +547,6 @@ a {
   background:-webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
   background:-o-linear-gradient(top left, #FF79DA, #9356DC);
   background:linear-gradient(to bottom right, #FF79DA, #9356DC);
-  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;}
 
