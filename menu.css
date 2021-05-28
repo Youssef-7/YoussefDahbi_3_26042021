@@ -371,7 +371,7 @@ h2 {
 
 #bloc_page
 {
-  width: auto;
+  max-width: 1440px;
   margin: auto;
   font-family: "Roboto"
 }
